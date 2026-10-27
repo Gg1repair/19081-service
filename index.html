@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
@@ -349,4 +349,1350 @@
                       <!-- Appliance Type -->
                       <div>
                         <label class="block text-xs font-bold text-slate-700 mb-1.5">
-                          <i class="fa-solid
+                          <i class="fa-solid fa-blender-phone text-brand-600 ml-1"></i> نوع الجهاز المطلوب صيانته
+                        </label>
+                        <select id="hero_appliance" required class="w-full px-3 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition text-sm bg-white">
+                          <option value="ثلاجة">ثلاجة</option>
+                          <option value="غسالة ملابس">غسالة ملابس</option>
+                          <option value="غسالة أطباق">غسالة أطباق</option>
+                          <option value="ديب فريزر">ديب فريزر</option>
+                          <option value="بوتاجاز / فرن">بوتاجاز / فرن</option>
+                          <option value="سخان كهرباء / غاز">سخان كهرباء أو غاز</option>
+                          <option value="تكييف">تكييف</option>
+                          <option value="جهاز منزلي آخر">جهاز منزلي آخر</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <!-- Brand & WhatsApp Number Selection -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1.5">
+                          <i class="fa-solid fa-tag text-brand-600 ml-1"></i> ماركة الجهاز
+                        </label>
+                        <select id="hero_brand" class="w-full px-3 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition text-sm bg-white">
+                          <option value="كريازي">كريازي (Kiriazi)</option>
+                          <option value="توشيبا">توشيبا (Toshiba)</option>
+                          <option value="وايت بوينت">وايت بوينت (White Point)</option>
+                          <option value="يونيفرسال">يونيفرسال (Universal)</option>
+                          <option value="فريش">فريش (Fresh)</option>
+                          <option value="يونيون اير">يونيون اير (Unionaire)</option>
+                          <option value="زانوسي">زانوسي (Zanussi)</option>
+                          <option value="إل جي">إل جي (LG)</option>
+                          <option value="سامسونج">سامسونج (Samsung)</option>
+                          <option value="أريستون">أريستون (Ariston)</option>
+                          <option value="بيكو">بيكو (Beko)</option>
+                          <option value="ماركة أخرى">ماركة أخرى</option>
+                        </select>
+                      </div>
+
+                      <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1.5">
+                          <i class="fa-brands fa-whatsapp text-emerald-600 ml-1"></i> إرسال عبر واتساب إلى
+                        </label>
+                        <select id="hero_whatsapp_dest" class="w-full px-3 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition text-sm bg-white">
+                          <option value="201102670999">خدمة العملاء 1 (01102670999)</option>
+                          <option value="201104701708">خدمة العملاء 2 (01104701708)</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <!-- Fault Description -->
+                    <div>
+                      <label class="block text-xs font-bold text-slate-700 mb-1.5">
+                        <i class="fa-regular fa-comment-dots text-brand-600 ml-1"></i> وصف مختصر للعطل (اختياري)
+                      </label>
+                      <textarea id="hero_fault" rows="2" placeholder="مثال: التبريد ضعيف، صوت عالي أثناء العصر، لا يسخن..." class="w-full px-4 py-2 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition text-sm"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-emerald-600 to-brand-600 hover:from-emerald-700 hover:to-brand-700 text-white font-extrabold text-base shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 transition transform active:scale-95">
+                      <i class="fa-brands fa-whatsapp text-2xl text-emerald-200"></i>
+                      <span>إرسال طلب الصيانة عبر واتساب فورا</span>
+                    </button>
+
+                    <p class="text-[11px] text-slate-500 text-center mt-2">
+                      <i class="fa-solid fa-lock text-brand-600 ml-1"></i> بياناتك في سرية تامة ولا نستخدم أي كوكيز تتبعية.
+                    </p>
+
+                  </div>
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- QUICK STATS / TRUST METRICS -->
+      <section class="bg-white py-8 border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-3">
+              <div class="text-3xl sm:text-4xl font-black text-brand-700 font-brand mb-1">100%</div>
+              <div class="text-xs sm:text-sm font-bold text-slate-700">فحص وصيانة منزلية</div>
+              <div class="text-xs text-slate-500">دون نقل الجهاز في أغلب الحالات</div>
+            </div>
+            <div class="p-3">
+              <div class="text-3xl sm:text-4xl font-black text-brand-700 font-brand mb-1">19081</div>
+              <div class="text-xs sm:text-sm font-bold text-slate-700">خط ساخن مباشر</div>
+              <div class="text-xs text-slate-500">جاهزون للرد السريع على مدار اليوم</div>
+            </div>
+            <div class="p-3">
+              <div class="text-3xl sm:text-4xl font-black text-brand-700 font-brand mb-1">شهادة</div>
+              <div class="text-xs sm:text-sm font-bold text-slate-700">ضمان خطي معتمد</div>
+              <div class="text-xs text-slate-500">على الصيانة وقطع الغيار المركبة</div>
+            </div>
+            <div class="p-3">
+              <div class="text-3xl sm:text-4xl font-black text-brand-700 font-brand mb-1">3 فروع</div>
+              <div class="text-xs sm:text-sm font-bold text-slate-700">مراكز دعم رئيسية</div>
+              <div class="text-xs text-slate-500">العاشر | أكتوبر | الكويت الخيران</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- APPLIANCE TYPES SECTION -->
+      <section class="py-14 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span class="text-xs font-bold text-brand-700 bg-brand-100 px-3 py-1 rounded-full uppercase tracking-wider">
+            خدمات الفحص والإصلاح
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-2 mb-3">
+            الأجهزة المنزلية التي نقوم بفحصها وإصلاحها
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto mb-10">
+            فريق عمل متمرس ومجهز بأحدث معدات الكشف الإلكتروني لتحديد الأعطال بدقة وحلها في أول زيارة
+          </p>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+            
+            <!-- Refrigerator -->
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md hover:border-brand-400 transition group text-center">
+              <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center text-2xl group-hover:scale-110 transition mb-3">
+                <i class="fa-solid fa-snowflake"></i>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm mb-1">صيانة الثلاجات</h3>
+              <p class="text-[11px] text-slate-500">شحن فريون، موتور، تسريب، ثيرموستات</p>
+            </div>
+
+            <!-- Washing Machine -->
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md hover:border-brand-400 transition group text-center">
+              <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center text-2xl group-hover:scale-110 transition mb-3">
+                <i class="fa-solid fa-soap"></i>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm mb-1">صيانة الغسالات</h3>
+              <p class="text-[11px] text-slate-500">فوق أوتوماتيك، أوتوماتيك، طلمبة، كارتات</p>
+            </div>
+
+            <!-- Deep Freezer -->
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md hover:border-brand-400 transition group text-center">
+              <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center text-2xl group-hover:scale-110 transition mb-3">
+                <i class="fa-solid fa-temperature-arrow-down"></i>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm mb-1">صيانة الديب فريزر</h3>
+              <p class="text-[11px] text-slate-500">رأسي وأفقي، نوفروست، ديفروست</p>
+            </div>
+
+            <!-- Cookers / Ovens -->
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md hover:border-brand-400 transition group text-center">
+              <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center text-2xl group-hover:scale-110 transition mb-3">
+                <i class="fa-solid fa-fire-burner"></i>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm mb-1">صيانة البوتاجازات</h3>
+              <p class="text-[11px] text-slate-500">إشعال ذاتي، شعلات، تسريب، أفران</p>
+            </div>
+
+            <!-- Water Heaters -->
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md hover:border-brand-400 transition group text-center">
+              <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center text-2xl group-hover:scale-110 transition mb-3">
+                <i class="fa-solid fa-shower"></i>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm mb-1">صيانة السخانات</h3>
+              <p class="text-[11px] text-slate-500">غاز وكهرباء، هيتر، مفاتيح، جلدة ردات</p>
+            </div>
+
+            <!-- Air Conditioners -->
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md hover:border-brand-400 transition group text-center">
+              <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center text-2xl group-hover:scale-110 transition mb-3">
+                <i class="fa-solid fa-wind"></i>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm mb-1">صيانة التكييفات</h3>
+              <p class="text-[11px] text-slate-500">شحن، تنظيف وغسيل، صيانة كومبريسور</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- BRANDS SECTION (CLICK TO OPEN DEDICATED BRAND PAGES)    -->
+      <!-- ======================================================== -->
+      <section id="brands-section" class="py-16 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-xs font-bold text-brand-700 bg-brand-100 px-3.5 py-1.5 rounded-full uppercase tracking-wider">
+              الماركات التي نقوم بخدمتها
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-3 mb-2">
+              خدمات فحص وصيانة الماركات العالمية والمحلية
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base">
+              اضغط على أي ماركة أدناه للانتقال لصفحة الصيانة المخصصة وحجز فني فوري بالمنزل
+            </p>
+          </div>
+
+          <!-- Brands Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 sm:gap-6">
+
+            <!-- 1. Kiriazi -->
+            <a href="#brand-kiriazi" onclick="openBrandPage('kiriazi', event)" class="group bg-slate-50 hover:bg-brand-50 border border-slate-200 hover:border-brand-400 p-5 rounded-2xl text-center transition duration-200 shadow-sm hover:shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 mx-auto rounded-xl bg-white shadow-sm flex items-center justify-center text-brand-700 text-xl mb-3 group-hover:scale-110 transition">
+                  <i class="fa-solid fa-kitchen-set"></i>
+                </div>
+                <h3 class="font-extrabold text-slate-900 text-base group-hover:text-brand-800">صيانة كريازي</h3>
+                <p class="text-xs text-slate-500 mt-1 font-brand">Kiriazi Repair Service</p>
+                <div class="mt-3 flex flex-wrap gap-1 justify-center">
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">ثلاجات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">ديب فريزر</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">غسالات</span>
+                </div>
+              </div>
+              <span class="mt-4 text-xs font-bold text-brand-700 inline-flex items-center justify-center gap-1">
+                طلب صيانة كريازي <i class="fa-solid fa-arrow-left text-[10px]"></i>
+              </span>
+            </a>
+
+            <!-- 2. Toshiba -->
+            <a href="#brand-toshiba" onclick="openBrandPage('toshiba', event)" class="group bg-slate-50 hover:bg-brand-50 border border-slate-200 hover:border-brand-400 p-5 rounded-2xl text-center transition duration-200 shadow-sm hover:shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 mx-auto rounded-xl bg-white shadow-sm flex items-center justify-center text-brand-700 text-xl mb-3 group-hover:scale-110 transition">
+                  <i class="fa-solid fa-microchip"></i>
+                </div>
+                <h3 class="font-extrabold text-slate-900 text-base group-hover:text-brand-800">صيانة توشيبا</h3>
+                <p class="text-xs text-slate-500 mt-1 font-brand">Toshiba Repair Service</p>
+                <div class="mt-3 flex flex-wrap gap-1 justify-center">
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">غسالات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">ثلاجات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">شاشات</span>
+                </div>
+              </div>
+              <span class="mt-4 text-xs font-bold text-brand-700 inline-flex items-center justify-center gap-1">
+                طلب صيانة توشيبا <i class="fa-solid fa-arrow-left text-[10px]"></i>
+              </span>
+            </a>
+
+            <!-- 3. White Point -->
+            <a href="#brand-whitepoint" onclick="openBrandPage('whitepoint', event)" class="group bg-slate-50 hover:bg-brand-50 border border-slate-200 hover:border-brand-400 p-5 rounded-2xl text-center transition duration-200 shadow-sm hover:shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 mx-auto rounded-xl bg-white shadow-sm flex items-center justify-center text-brand-700 text-xl mb-3 group-hover:scale-110 transition">
+                  <i class="fa-solid fa-circle-dot"></i>
+                </div>
+                <h3 class="font-extrabold text-slate-900 text-base group-hover:text-brand-800">صيانة وايت بوينت</h3>
+                <p class="text-xs text-slate-500 mt-1 font-brand">White Point Repair</p>
+                <div class="mt-3 flex flex-wrap gap-1 justify-center">
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">غسالات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">ثلاجات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">أطباق</span>
+                </div>
+              </div>
+              <span class="mt-4 text-xs font-bold text-brand-700 inline-flex items-center justify-center gap-1">
+                طلب صيانة وايت بوينت <i class="fa-solid fa-arrow-left text-[10px]"></i>
+              </span>
+            </a>
+
+            <!-- 4. Universal -->
+            <a href="#brand-universal" onclick="openBrandPage('universal', event)" class="group bg-slate-50 hover:bg-brand-50 border border-slate-200 hover:border-brand-400 p-5 rounded-2xl text-center transition duration-200 shadow-sm hover:shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 mx-auto rounded-xl bg-white shadow-sm flex items-center justify-center text-brand-700 text-xl mb-3 group-hover:scale-110 transition">
+                  <i class="fa-solid fa-fire"></i>
+                </div>
+                <h3 class="font-extrabold text-slate-900 text-base group-hover:text-brand-800">صيانة يونيفرسال</h3>
+                <p class="text-xs text-slate-500 mt-1 font-brand">Universal Repair</p>
+                <div class="mt-3 flex flex-wrap gap-1 justify-center">
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">بوتاجازات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">سخانات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">غسالات</span>
+                </div>
+              </div>
+              <span class="mt-4 text-xs font-bold text-brand-700 inline-flex items-center justify-center gap-1">
+                طلب صيانة يونيفرسال <i class="fa-solid fa-arrow-left text-[10px]"></i>
+              </span>
+            </a>
+
+            <!-- 5. Fresh -->
+            <a href="#brand-fresh" onclick="openBrandPage('fresh', event)" class="group bg-slate-50 hover:bg-brand-50 border border-slate-200 hover:border-brand-400 p-5 rounded-2xl text-center transition duration-200 shadow-sm hover:shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 mx-auto rounded-xl bg-white shadow-sm flex items-center justify-center text-brand-700 text-xl mb-3 group-hover:scale-110 transition">
+                  <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h3 class="font-extrabold text-slate-900 text-base group-hover:text-brand-800">صيانة فريش</h3>
+                <p class="text-xs text-slate-500 mt-1 font-brand">Fresh Repair</p>
+                <div class="mt-3 flex flex-wrap gap-1 justify-center">
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">تكييفات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">ديب فريزر</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">بوتاجازات</span>
+                </div>
+              </div>
+              <span class="mt-4 text-xs font-bold text-brand-700 inline-flex items-center justify-center gap-1">
+                طلب صيانة فريش <i class="fa-solid fa-arrow-left text-[10px]"></i>
+              </span>
+            </a>
+
+            <!-- 6. Unionaire -->
+            <a href="#brand-unionaire" onclick="openBrandPage('unionaire', event)" class="group bg-slate-50 hover:bg-brand-50 border border-slate-200 hover:border-brand-400 p-5 rounded-2xl text-center transition duration-200 shadow-sm hover:shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 mx-auto rounded-xl bg-white shadow-sm flex items-center justify-center text-brand-700 text-xl mb-3 group-hover:scale-110 transition">
+                  <i class="fa-solid fa-fan"></i>
+                </div>
+                <h3 class="font-extrabold text-slate-900 text-base group-hover:text-brand-800">صيانة يونيون اير</h3>
+                <p class="text-xs text-slate-500 mt-1 font-brand">Unionaire Repair</p>
+                <div class="mt-3 flex flex-wrap gap-1 justify-center">
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">تكييفات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">شاشات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">بوتاجاز</span>
+                </div>
+              </div>
+              <span class="mt-4 text-xs font-bold text-brand-700 inline-flex items-center justify-center gap-1">
+                طلب صيانة يونيون اير <i class="fa-solid fa-arrow-left text-[10px]"></i>
+              </span>
+            </a>
+
+            <!-- 7. Zanussi -->
+            <a href="#brand-zanussi" onclick="openBrandPage('zanussi', event)" class="group bg-slate-50 hover:bg-brand-50 border border-slate-200 hover:border-brand-400 p-5 rounded-2xl text-center transition duration-200 shadow-sm hover:shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 mx-auto rounded-xl bg-white shadow-sm flex items-center justify-center text-brand-700 text-xl mb-3 group-hover:scale-110 transition">
+                  <i class="fa-solid fa-water"></i>
+                </div>
+                <h3 class="font-extrabold text-slate-900 text-base group-hover:text-brand-800">صيانة زانوسي</h3>
+                <p class="text-xs text-slate-500 mt-1 font-brand">Zanussi Repair</p>
+                <div class="mt-3 flex flex-wrap gap-1 justify-center">
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">غسالات ملابس</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">سخانات</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">ثلاجات</span>
+                </div>
+              </div>
+              <span class="mt-4 text-xs font-bold text-brand-700 inline-flex items-center justify-center gap-1">
+                طلب صيانة زانوسي <i class="fa-solid fa-arrow-left text-[10px]"></i>
+              </span>
+            </a>
+
+            <!-- 8. LG, Samsung, Ariston, Beko (Other Brands Hub) -->
+            <a href="#brand-other" onclick="openBrandPage('other', event)" class="group bg-slate-50 hover:bg-brand-50 border border-slate-200 hover:border-brand-400 p-5 rounded-2xl text-center transition duration-200 shadow-sm hover:shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 mx-auto rounded-xl bg-white shadow-sm flex items-center justify-center text-brand-700 text-xl mb-3 group-hover:scale-110 transition">
+                  <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h3 class="font-extrabold text-slate-900 text-base group-hover:text-brand-800">إل جي، سامسونج، بيكو، أريستون</h3>
+                <p class="text-xs text-slate-500 mt-1 font-brand">Global Brands Repair</p>
+                <div class="mt-3 flex flex-wrap gap-1 justify-center">
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">LG</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">Samsung</span>
+                  <span class="text-[10px] bg-white px-2 py-0.5 rounded text-slate-600">Beko</span>
+                </div>
+              </div>
+              <span class="mt-4 text-xs font-bold text-brand-700 inline-flex items-center justify-center gap-1">
+                عرض باقي الماركات <i class="fa-solid fa-arrow-left text-[10px]"></i>
+              </span>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- LOCATIONS & COVERAGE SECTION                            -->
+      <!-- ======================================================== -->
+      <section id="locations-section" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-xs font-bold text-brand-700 bg-brand-100 px-3.5 py-1.5 rounded-full uppercase tracking-wider">
+              فروعنا ومراكز تقديم الخدمة
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-3 mb-2">
+              تغطية واسعة في مصر ودولة الكويت
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base">
+              نمتلك ورش عمل مجهزة وسيارات خدمة متنقلة تصلك إلى باب المنزل في المواقع التالية
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <!-- Location 1: 10th of Ramadan -->
+            <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-brand-500 transition">
+              <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-800 flex items-center justify-center text-xl mb-4">
+                <i class="fa-solid fa-city"></i>
+              </div>
+              <h3 class="text-lg font-black text-slate-900 mb-2">فرع العاشر من رمضان</h3>
+              <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                خدمة أهالي مدينة العاشر من رمضان والمناطق الصناعية والمجاورة بسيارات صيانة مجهزة بالكامل.
+              </p>
+              <div class="space-y-2 text-xs font-bold text-slate-700 border-t border-slate-100 pt-3">
+                <div class="flex items-center justify-between">
+                  <span>الخط الساخن:</span>
+                  <a href="tel:19081" class="text-brand-700 font-brand font-black text-sm">19081</a>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span>واتساب الفرع:</span>
+                  <a href="https://wa.me/201102670999" target="_blank" class="text-emerald-600 font-brand">01102670999</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Location 2: 6th of October Industrial Area -->
+            <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-brand-500 transition">
+              <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-800 flex items-center justify-center text-xl mb-4">
+                <i class="fa-solid fa-industry"></i>
+              </div>
+              <h3 class="text-lg font-black text-slate-900 mb-2">المنطقة الصناعية في أكتوبر</h3>
+              <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                تغطية شاملة لمدينة السادس من أكتوبر، المنطقة الصناعية، وحدائق الأكتوبر والشيخ زايد.
+              </p>
+              <div class="space-y-2 text-xs font-bold text-slate-700 border-t border-slate-100 pt-3">
+                <div class="flex items-center justify-between">
+                  <span>الخط الساخن:</span>
+                  <a href="tel:19081" class="text-brand-700 font-brand font-black text-sm">19081</a>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span>هاتف مباشر:</span>
+                  <a href="tel:01104701709" class="text-brand-700 font-brand">01104701709</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Location 3: Kuwait - Al Khiran -->
+            <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-brand-500 transition">
+              <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-800 flex items-center justify-center text-xl mb-4">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <h3 class="text-lg font-black text-slate-900 mb-2">الكويت - الخيران</h3>
+              <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                خدمات فحص وصيانة منزلية فورية للأجهزة الكهربائية في منطقة الخيران ومحافظة الأحمدي بالكويت.
+              </p>
+              <div class="space-y-2 text-xs font-bold text-slate-700 border-t border-slate-100 pt-3">
+                <div class="flex items-center justify-between">
+                  <span>التواصل المباشر:</span>
+                  <a href="https://wa.me/201104701708" target="_blank" class="text-emerald-600 font-brand font-bold">عبر واتساب الإدارة</a>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span>خدمة العملاء:</span>
+                  <a href="tel:01104701708" class="text-brand-700 font-brand">01104701708</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- FAQ SECTION (سؤال وجواب)                                 -->
+      <!-- ======================================================== -->
+      <section id="faq-section" class="py-16 bg-white border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center mb-12">
+            <span class="text-xs font-bold text-brand-700 bg-brand-100 px-3.5 py-1.5 rounded-full uppercase tracking-wider">
+              سؤال وجواب
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-3 mb-2">
+              الأسئلة الشائعة حول خدمات الصيانة
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base">
+              إليك كل ما تود معرفته عن خطوات الحجز، الضمان، وفحص الأجهزة بالمنزل
+            </p>
+          </div>
+
+          <!-- Accordion Items -->
+          <div class="space-y-3" id="faqAccordion">
+            
+            <!-- Q1 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden bg-slate-50 transition">
+              <button onclick="toggleFaq(this)" class="w-full px-5 py-4 text-right font-bold text-slate-800 flex items-center justify-between hover:bg-slate-100 transition focus:outline-none">
+                <span class="text-sm sm:text-base">هل يتم فحص وإصلاح الجهاز في المنزل؟</span>
+                <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-200"></i>
+              </button>
+              <div class="px-5 pb-4 pt-1 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-200/60 hidden">
+                نعم، في أكثر من 95% من الحالات تتم جميع أعمال الفحص والصيانة وتركيب قطع الغيار داخل منزلك مباشرة، دون الحاجة لنقل الجهاز إلا في الحالات الاستثنائية التي تتطلب اختبارات بأجهزة الورشة بعد موافقتك.
+              </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden bg-slate-50 transition">
+              <button onclick="toggleFaq(this)" class="w-full px-5 py-4 text-right font-bold text-slate-800 flex items-center justify-between hover:bg-slate-100 transition focus:outline-none">
+                <span class="text-sm sm:text-base">ما هي مدة الضمان على قطع الغيار والصيانة؟</span>
+                <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-200"></i>
+              </button>
+              <div class="px-5 pb-4 pt-1 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-200/60 hidden">
+                نقدم شهادة ضمان معتمدة من مركزنا على قطع الغيار المستبدلة وعلى الصيانة المنفذة تمتد لفترات تتراوح من 3 أشهر إلى 12 شهراً بحسب نوع القطعة وطبيعة العطل، وتتحمل الشركة أي تكاليف في حال تكرار نفس العطل خلال فترة الضمان.
+              </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden bg-slate-50 transition">
+              <button onclick="toggleFaq(this)" class="w-full px-5 py-4 text-right font-bold text-slate-800 flex items-center justify-between hover:bg-slate-100 transition focus:outline-none">
+                <span class="text-sm sm:text-base">كيف يمكنني حجز موعد عاجل؟</span>
+                <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-200"></i>
+              </button>
+              <div class="px-5 pb-4 pt-1 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-200/60 hidden">
+                يمكنك الاتصال فوراً بالرقم السريع <strong class="text-brand-800">19081</strong> أو إرسال تفاصيل طلبك عبر النموذج في أعلى الصفحة وسيتم توجيهك فوراً إلى محادثة واتساب مع فريق خدمة العملاء على الأرقام: <strong>01102670999</strong> أو <strong>01104701708</strong>.
+              </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden bg-slate-50 transition">
+              <button onclick="toggleFaq(this)" class="w-full px-5 py-4 text-right font-bold text-slate-800 flex items-center justify-between hover:bg-slate-100 transition focus:outline-none">
+                <span class="text-sm sm:text-base">هل أنتم الوكيل الرسمي للماركات المذكورة بالموقع؟</span>
+                <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-200"></i>
+              </button>
+              <div class="px-5 pb-4 pt-1 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-200/60 hidden">
+                نوضح بشفافية كاملة والتزاماً بالقوانين وسياسات الإعلانات: نحن في موقع <strong>Gg 1 repair</strong> مركز خدمة وصيانة حر ومستقل للأجهزة المنزلية، ولسنا وكلاء رسميين أو معتمدين لأي شركة أو علامة تجارية مسجلة. كافة الماركات المذكورة هي ملك لأصحابها وتذكر فقط لبيان نوعية الأجهزة التي نقوم بفحصها وإصلاحها.
+              </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden bg-slate-50 transition">
+              <button onclick="toggleFaq(this)" class="w-full px-5 py-4 text-right font-bold text-slate-800 flex items-center justify-between hover:bg-slate-100 transition focus:outline-none">
+                <span class="text-sm sm:text-base">ما هي وسائل الدفع المتاحة لديكم؟</span>
+                <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-200"></i>
+              </button>
+              <div class="px-5 pb-4 pt-1 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-200/60 hidden">
+                يمكنك سداد تكاليف الفحص والصيانة نقداً للفني بعد انتهاء أعمال الإصلاح واستلام إيصال الصيانة والضمان، أو من خلال المحافظ الإلكترونية والتحويل البنكي الفوري.
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- PRIVACY POLICY SECTION (NO COOKIES POLICY)               -->
+      <!-- ======================================================== -->
+      <section id="privacy-section" class="py-14 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-800 flex items-center justify-center text-lg">
+                <i class="fa-solid fa-cookie-bite text-brand-700"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-black text-slate-900">سياسة الخصوصية (موقع خالٍ من ملفات تعريف الارتباط / No Cookies)</h3>
+                <p class="text-xs text-brand-700 font-bold">التزام صارم بحماية بيانات العميل بدون تعقب</p>
+              </div>
+            </div>
+
+            <div class="space-y-3 text-xs sm:text-sm text-slate-600 leading-relaxed text-right">
+              <p>
+                نولي في <strong>Gg 1 repair</strong> أهمية قصوى لخصوصيتك وراحتك أثناء استخدام هذا الموقع:
+              </p>
+              
+              <div class="p-3.5 rounded-xl bg-brand-50/70 border border-brand-200 text-brand-900 text-xs font-semibold">
+                <i class="fa-solid fa-check-circle text-emerald-600 ml-1"></i>
+                <strong>بدون ملفات تعريف ارتباط (Zero Cookies):</strong> موقعنا لا يقوم بحفظ، تتبع، أو تخزين أي ملفات كوكيز (Cookies) تتبعية أو دعائية على جهازك أو متصفحك.
+              </div>
+
+              <ul class="list-disc list-inside space-y-1.5 text-slate-700 mr-2 text-xs sm:text-sm">
+                <li><strong>استخدام بيانات نموذج الحجز:</strong> الاسم، رقم الهاتف، والمنطقة التي تقوم بإدخالها في نموذج طلب الصيانة تُستخدم لغرض وحيد وهو صياغة رسالة واتساب مباشرة للتواصل معك لتحديد موعد الزيارة المنزلية.</li>
+                <li><strong>عدم مشاركة البيانات:</strong> لا نقوم ببيع، تأجير، أو مشاركة بيانات التواصل الخاصة بك مع أي أطراف ثالثة أو شركات تسويق خارجية على الإطلاق.</li>
+                <li><strong>حماية الاتصال:</strong> يتم توجيه رسائل الواتساب والاتصالات الهاتفية عبر شبكات اتصالات رسمية ومحمية دون تخزين وسيط على خوادم إعلانية.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- CONTACT US SECTION                                       -->
+      <!-- ======================================================== -->
+      <section id="contact-section" class="py-16 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-xs font-bold text-brand-700 bg-brand-100 px-3.5 py-1.5 rounded-full uppercase tracking-wider">
+              قنوات الاتصال المباشرة
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-3 mb-2">
+              تواصل مع مركز خدمة Gg 1 repair
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base">
+              فريق خدمة العملاء جاهز طوال 24 ساعة للرد على استفساراتكم وتسجيل بلاغات الأعطال
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Hotline Card -->
+            <div class="bg-gradient-to-br from-brand-900 to-brand-800 text-white p-6 rounded-2xl shadow-md flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center text-2xl text-amber-300 mb-4">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <h3 class="text-lg font-bold">الخط الساخن السريع</h3>
+                <p class="text-xs text-emerald-200 mt-1">للاتصال الفوري من أي خط أرضي أو محمول</p>
+              </div>
+              <div class="mt-6">
+                <a href="tel:19081" class="w-full py-3 rounded-xl bg-white text-brand-900 font-brand font-black text-2xl tracking-wider flex items-center justify-center gap-2 hover:bg-emerald-50 transition shadow">
+                  19081
+                </a>
+              </div>
+            </div>
+
+            <!-- WhatsApp Card -->
+            <div class="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm hover:border-emerald-500 transition flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-2xl mb-4">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <h3 class="text-lg font-bold text-slate-900">محادثات الواتساب</h3>
+                <p class="text-xs text-slate-500 mt-1">تواصل كتابياً وأرسل صور وفيديو العطل</p>
+              </div>
+              <div class="mt-6 space-y-2">
+                <a href="https://wa.me/201102670999" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold flex items-center justify-center gap-2 transition">
+                  <i class="fa-brands fa-whatsapp text-base"></i> <span dir="ltr">01102670999</span>
+                </a>
+                <a href="https://wa.me/201104701708" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold flex items-center justify-center gap-2 transition">
+                  <i class="fa-brands fa-whatsapp text-base"></i> <span dir="ltr">01104701708</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Direct Mobile Numbers Card -->
+            <div class="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm hover:border-brand-500 transition flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-800 flex items-center justify-center text-2xl mb-4">
+                  <i class="fa-solid fa-mobile-screen"></i>
+                </div>
+                <h3 class="text-lg font-bold text-slate-900">أرقام الموبايل المباشرة</h3>
+                <p class="text-xs text-slate-500 mt-1">للاتصال المباشر مع مشرفي الصيانة</p>
+              </div>
+              <div class="mt-6 space-y-2">
+                <a href="tel:01104701709" class="w-full py-2.5 px-3 rounded-xl bg-slate-100 hover:bg-brand-50 text-slate-900 hover:text-brand-800 text-xs font-bold flex items-center justify-between transition border border-slate-200">
+                  <span>اتصال:</span>
+                  <span dir="ltr" class="font-brand font-bold text-sm text-brand-700">01104701709</span>
+                </a>
+                <a href="tel:01104701708" class="w-full py-2.5 px-3 rounded-xl bg-slate-100 hover:bg-brand-50 text-slate-900 hover:text-brand-800 text-xs font-bold flex items-center justify-between transition border border-slate-200">
+                  <span>اتصال:</span>
+                  <span dir="ltr" class="font-brand font-bold text-sm text-brand-700">01104701708</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Branches & Working Hours -->
+            <div class="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+              <div>
+                <div class="w-12 h-12 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center text-2xl mb-4">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3 class="text-lg font-bold text-slate-900">ساعات ومناطق العمل</h3>
+                <p class="text-xs text-slate-500 mt-1">خدمة يومية بلا انقطاع</p>
+              </div>
+              <div class="mt-4 text-xs text-slate-600 space-y-2 border-t border-slate-100 pt-3">
+                <div class="flex items-center gap-1.5 font-bold text-brand-800">
+                  <i class="fa-regular fa-clock"></i> نعمل 24 ساعة يومياً
+                </div>
+                <div>📍 العاشر من رمضان</div>
+                <div>📍 المنطقة الصناعية في أكتوبر</div>
+                <div>📍 الكويت - منطقة الخيران</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+    <!-- END OF HOME VIEW -->
+
+
+    <!-- ======================================================== -->
+    <!-- VIEW 2: DYNAMIC BRAND SUB-PAGE VIEW                     -->
+    <!-- (SHOWN ON HASH NAVIGATION e.g., #brand-kiriazi)         -->
+    <!-- ======================================================== -->
+    <div id="brandView" class="hidden">
+      
+      <!-- Top Brand Header Banner with Technician Picture & Maintenance Request Form AT THE TOP -->
+      <section class="bg-gradient-to-b from-brand-900 via-brand-800 to-brand-950 text-white pt-8 pb-14 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+          
+          <!-- Back to Home Button & Breadcrumb -->
+          <div class="flex items-center justify-between mb-6 pb-4 border-b border-white/10">
+            <button onclick="showHomePage(event)" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-bold transition">
+              <i class="fa-solid fa-arrow-right"></i>
+              العودة للرئيسية
+            </button>
+            <div class="text-xs text-emerald-300 font-semibold flex items-center gap-1.5">
+              <span>الرئيسية</span>
+              <i class="fa-solid fa-chevron-left text-[10px]"></i>
+              <span id="brandBreadcrumb">صفحة الماركة</span>
+            </div>
+          </div>
+
+          <!-- GIANT ANIMATED HOTLINE 19081 & ENLARGED WHATSAPP / CALL ACTION BUTTONS (IN CENTER OF SCREEN) -->
+          <div class="mb-8 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-emerald-950 via-brand-900 to-emerald-950 border-2 border-emerald-400/40 shadow-2xl text-center relative overflow-hidden">
+            <!-- Animated Radar Wave Rings Background -->
+            <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
+              <span class="w-72 h-72 rounded-full border-2 border-emerald-300 animate-ping"></span>
+              <span class="w-96 h-96 rounded-full border border-emerald-400/60 animate-pulse"></span>
+            </div>
+
+            <div class="relative z-10 space-y-5">
+              <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-400/20 border border-amber-400/50 text-amber-300 text-xs sm:text-sm font-extrabold animate-bounce">
+                <i class="fa-solid fa-headset text-base text-amber-300"></i>
+                <span>مركز الخدمة المباشر - متاحون للرد السريع 24 ساعة</span>
+              </div>
+
+              <div class="text-xs sm:text-sm text-emerald-200 font-bold">
+                اضغط على الخط الساخن أدناه للاتصال المباشر والفحص الفوري
+              </div>
+
+              <!-- HUGE ANIMATED HOTLINE BUTTON -->
+              <div class="flex justify-center my-2">
+                <a href="tel:19081" class="group inline-flex items-center justify-center gap-4 sm:gap-6 px-8 py-5 sm:px-14 sm:py-6 rounded-3xl bg-gradient-to-r from-emerald-600 via-brand-500 to-emerald-600 text-white border-2 border-emerald-300/80 shadow-[0_0_40px_rgba(16,185,129,0.6)] hotline-glow-btn transition transform active:scale-95">
+                  <div class="w-14 h-14 sm:w-20 sm:h-20 rounded-2xl bg-white/20 flex items-center justify-center text-white text-3xl sm:text-5xl pulse-call shadow-inner">
+                    <i class="fa-solid fa-phone-volume text-amber-300 drop-shadow"></i>
+                  </div>
+                  <div class="text-right">
+                    <span class="block text-xs sm:text-base font-extrabold text-emerald-100 mb-0.5">الخط الساخن الموحد السريع</span>
+                    <span dir="ltr" class="font-brand font-black text-4xl sm:text-6xl md:text-7xl text-amber-300 tracking-wider drop-shadow-lg block leading-none">19081</span>
+                  </div>
+                </a>
+              </div>
+
+              <!-- ENLARGED WHATSAPP & DIRECT PHONE CONTACT BUTTONS -->
+              <div class="pt-3 max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+                <!-- WhatsApp 1 (Enlarged) -->
+                <a href="https://wa.me/201102670999" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 p-4 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold shadow-lg transition border border-emerald-300/40 group active:scale-95">
+                  <i class="fa-brands fa-whatsapp text-3xl sm:text-4xl text-emerald-200 group-hover:scale-110 transition-transform"></i>
+                  <div class="text-right">
+                    <div class="text-[11px] text-emerald-100 font-normal">واتساب خدمة العملاء 1</div>
+                    <span dir="ltr" class="font-brand font-black text-base sm:text-lg">01102670999</span>
+                  </div>
+                </a>
+
+                <!-- WhatsApp 2 (Enlarged) -->
+                <a href="https://wa.me/201104701708" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 p-4 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold shadow-lg transition border border-emerald-300/40 group active:scale-95">
+                  <i class="fa-brands fa-whatsapp text-3xl sm:text-4xl text-emerald-200 group-hover:scale-110 transition-transform"></i>
+                  <div class="text-right">
+                    <div class="text-[11px] text-emerald-100 font-normal">واتساب خدمة العملاء 2</div>
+                    <span dir="ltr" class="font-brand font-black text-base sm:text-lg">01104701708</span>
+                  </div>
+                </a>
+
+                <!-- Direct Phone 1 (Enlarged) -->
+                <a href="tel:01104701709" class="flex items-center justify-center gap-3 p-4 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-bold border border-white/20 transition group active:scale-95">
+                  <i class="fa-solid fa-mobile-screen-button text-2xl sm:text-3xl text-amber-300 group-hover:scale-110 transition-transform"></i>
+                  <div class="text-right">
+                    <div class="text-[11px] text-slate-300 font-normal">موبايل مباشر 1</div>
+                    <span dir="ltr" class="font-brand font-black text-base text-emerald-200">01104701709</span>
+                  </div>
+                </a>
+
+                <!-- Direct Phone 2 (Enlarged) -->
+                <a href="tel:01104701708" class="flex items-center justify-center gap-3 p-4 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-bold border border-white/20 transition group active:scale-95">
+                  <i class="fa-solid fa-mobile-screen-button text-2xl sm:text-3xl text-amber-300 group-hover:scale-110 transition-transform"></i>
+                  <div class="text-right">
+                    <div class="text-[11px] text-slate-300 font-normal">موبايل مباشر 2</div>
+                    <span dir="ltr" class="font-brand font-black text-base text-emerald-200">01104701708</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Top Grid: Form at the top, along with Technician Photo & Quick Call Info -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <!-- RIGHT: Brand Info & High-Quality Technician Illustration / Photo -->
+            <div class="lg:col-span-6 space-y-5">
+              
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-400/30">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                خدمة فحص وإصلاح منزلي فوري
+              </div>
+
+              <!-- Brand Title (Dynamic) -->
+              <h1 id="brandPageTitle" class="text-3xl sm:text-4xl font-black text-white leading-tight">
+                خدمات صيانة وإصلاح أجهزة كريازي
+              </h1>
+
+              <p id="brandPageDescription" class="text-slate-200 text-sm sm:text-base leading-relaxed">
+                نوفر فحصاً سريعاً ودقيقاً لأعطال الثلاجات، الغسالات والديب فريزر بأحدث المعدات وقطع الغيار الأصلية مع ضمان معتمد ومهندسين ذوي كفاءة عالية.
+              </p>
+
+              <!-- Technician Image Box -->
+              <div class="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-emerald-400/30 bg-brand-950">
+                <!-- Fallback / Modern SVG Technician Banner Illustration -->
+                <div class="p-6 bg-gradient-to-r from-emerald-900 to-brand-900 flex flex-col sm:flex-row items-center gap-5">
+                  <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center text-emerald-300 text-5xl flex-shrink-0">
+                    <i class="fa-solid fa-user-gear"></i>
+                  </div>
+                  <div class="text-center sm:text-right space-y-1.5">
+                    <span class="inline-block px-2.5 py-0.5 rounded bg-emerald-400 text-brand-950 font-black text-xs">
+                      فني معتمد بالمنزل
+                    </span>
+                    <h4 class="text-lg font-bold text-white">فحص ومعاينة فورية بدون نقل الجهاز</h4>
+                    <p class="text-xs text-slate-300">
+                      سيارات صيانة مجهزة تصل لمنزلك في العاشر من رمضان، أكتوبر، القاهرة، وباقي المحافظات والكويت الخيران.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Call to action inside technician banner -->
+                <div class="bg-brand-950/80 px-5 py-3 border-t border-white/10 flex items-center justify-between text-xs">
+                  <span class="text-slate-300">طلب فني عاجل خلال 24 ساعة:</span>
+                  <a href="tel:19081" class="text-amber-300 font-brand font-black text-base flex items-center gap-1.5">
+                    <i class="fa-solid fa-phone"></i> 19081
+                  </a>
+                </div>
+              </div>
+
+              <!-- Quick direct phone tags -->
+              <div class="grid grid-cols-2 gap-3 text-center">
+                <a href="tel:01104701709" class="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold border border-white/15 transition flex items-center justify-center gap-2">
+                  <i class="fa-solid fa-phone text-emerald-300"></i>
+                  <span>01104701709</span>
+                </a>
+                <a href="tel:01104701708" class="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold border border-white/15 transition flex items-center justify-center gap-2">
+                  <i class="fa-solid fa-phone text-emerald-300"></i>
+                  <span>01104701708</span>
+                </a>
+              </div>
+
+            </div>
+
+            <!-- LEFT: TOP MAINTENANCE REQUEST FORM (SPECIFIC TO BRAND) -->
+            <div class="lg:col-span-6">
+              <div class="bg-white rounded-3xl p-6 sm:p-7 text-slate-800 shadow-2xl border-4 border-emerald-500/30">
+                <div class="border-b border-slate-100 pb-3 mb-4 text-right">
+                  <span id="brandFormBadge" class="inline-block bg-brand-100 text-brand-800 text-xs font-black px-2.5 py-0.5 rounded-md mb-1">
+                    طلب صيانة فورية
+                  </span>
+                  <h3 id="brandFormTitle" class="text-xl font-black text-slate-900">
+                    احجز فحصاً منزلياً الآن
+                  </h3>
+                  <p class="text-slate-500 text-xs mt-1">
+                    املأ النموذج لتحويلك مباشرة إلى محادثة واتساب لتأكيد موعد الزيارة
+                  </p>
+                </div>
+
+                <form id="brandRequestForm" onsubmit="handleFormSubmit(event, 'brand')">
+                  <div class="space-y-3.5 text-right">
+                    
+                    <!-- Customer Name -->
+                    <div>
+                      <label class="block text-xs font-bold text-slate-700 mb-1">الاسم بالكامل</label>
+                      <input type="text" id="brand_name" required placeholder="مثال: محمد السيد" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none text-sm">
+                    </div>
+
+                    <!-- Customer Phone -->
+                    <div>
+                      <label class="block text-xs font-bold text-slate-700 mb-1">رقم الهاتف المحمول</label>
+                      <input type="tel" id="brand_phone" required dir="ltr" placeholder="01XXXXXXXXX" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none text-sm text-right">
+                    </div>
+
+                    <!-- Region / Location & Appliance Type -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">المدينة / الفرع</label>
+                        <select id="brand_location" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none text-sm bg-white">
+                          <option value="العاشر من رمضان">العاشر من رمضان</option>
+                          <option value="المنطقة الصناعية في أكتوبر">المنطقة الصناعية في أكتوبر</option>
+                          <option value="الكويت - الخيران">الكويت - الخيران</option>
+                          <option value="القاهرة الكبرى والجيزة">القاهرة الكبرى والجيزة</option>
+                          <option value="مدن ومحافظات أخرى">مدن ومحافظات أخرى</option>
+                        </select>
+                      </div>
+
+                      <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">نوع الجهاز</label>
+                        <select id="brand_appliance" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none text-sm bg-white">
+                          <option value="ثلاجة">ثلاجة</option>
+                          <option value="غسالة">غسالة</option>
+                          <option value="ديب فريزر">ديب فريزر</option>
+                          <option value="بوتاجاز">بوتاجاز</option>
+                          <option value="سخان">سخان</option>
+                          <option value="تكييف">تكييف</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <!-- Brand Name (Auto-populated/Hidden or Readonly) & WhatsApp Destination -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">الماركة المحددة</label>
+                        <input type="text" id="brand_selected_brand" readonly class="w-full px-3 py-2 rounded-xl bg-slate-100 border border-slate-300 text-brand-900 font-bold text-sm cursor-not-allowed">
+                      </div>
+
+                      <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">رقم واتساب للتواصل</label>
+                        <select id="brand_whatsapp_dest" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none text-sm bg-white">
+                          <option value="201102670999">خدمة العملاء (01102670999)</option>
+                          <option value="201104701708">خدمة العملاء (01104701708)</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <!-- Fault Description -->
+                    <div>
+                      <label class="block text-xs font-bold text-slate-700 mb-1">وصف العطل في الجهاز</label>
+                      <textarea id="brand_fault" rows="2" placeholder="صف المشكلة باختصار..." class="w-full px-3.5 py-1.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none text-sm"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-emerald-600 to-brand-600 hover:from-emerald-700 hover:to-brand-700 text-white font-extrabold text-sm shadow-md shadow-emerald-600/30 flex items-center justify-center gap-2 transition">
+                      <i class="fa-brands fa-whatsapp text-xl"></i>
+                      <span>إرسال الطلب عبر واتساب فورا</span>
+                    </button>
+
+                  </div>
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Brand Services Overview Cards -->
+      <section class="py-12 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center mb-10">
+            <h2 class="text-2xl font-black text-slate-900 mb-2">مميزات خدمة الصيانة المنزلية لدينا</h2>
+            <p class="text-slate-600 text-sm">نحرص على تقديم تجربة صيانة مريحة وآمنة بأعلى معايير الجودة</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="w-12 h-12 mx-auto rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl mb-3">
+                <i class="fa-solid fa-house-chimney-crack"></i>
+              </div>
+              <h3 class="font-bold text-slate-900 mb-1">إصلاح منزلي فوري</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                يصل الفني بالمعدات اللازمة وقطع الغيار لفحص الجهاز وإصلاحه أمام العميل دون مغادرة المنزل.
+              </p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="w-12 h-12 mx-auto rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl mb-3">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <h3 class="font-bold text-slate-900 mb-1">قطع غيار أصلية</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                استبدال الأجزاء التالفة بقطع بديلة أصلية متوافقة تضمن استعادة كفاءة التشغيل بنسبة 100%.
+              </p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="w-12 h-12 mx-auto rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl mb-3">
+                <i class="fa-solid fa-file-signature"></i>
+              </div>
+              <h3 class="font-bold text-slate-900 mb-1">فاتورة وضمان خطي</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                استلام إيصال رسمي معتمد وضمان على الصيانة لضمان حقك وراحتك طوال فترة سريان الضمان.
+              </p>
+            </div>
+          </div>
+
+          <!-- Other Brands Quick Selector Bar -->
+          <div class="mt-12 p-6 rounded-2xl bg-slate-50 border border-slate-200 text-center">
+            <h4 class="text-sm font-bold text-slate-700 mb-3">تصفح صيانة الماركات الأخرى:</h4>
+            <div class="flex flex-wrap justify-center gap-2">
+              <button onclick="openBrandPage('kiriazi', event)" class="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-xs font-bold hover:bg-brand-50 hover:text-brand-700 transition">كريازي</button>
+              <button onclick="openBrandPage('toshiba', event)" class="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-xs font-bold hover:bg-brand-50 hover:text-brand-700 transition">توشيبا</button>
+              <button onclick="openBrandPage('whitepoint', event)" class="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-xs font-bold hover:bg-brand-50 hover:text-brand-700 transition">وايت بوينت</button>
+              <button onclick="openBrandPage('universal', event)" class="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-xs font-bold hover:bg-brand-50 hover:text-brand-700 transition">يونيفرسال</button>
+              <button onclick="openBrandPage('fresh', event)" class="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-xs font-bold hover:bg-brand-50 hover:text-brand-700 transition">فريش</button>
+              <button onclick="openBrandPage('unionaire', event)" class="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-xs font-bold hover:bg-brand-50 hover:text-brand-700 transition">يونيون اير</button>
+              <button onclick="openBrandPage('zanussi', event)" class="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-xs font-bold hover:bg-brand-50 hover:text-brand-700 transition">زانوسي</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- BRAND SUB-PAGE DISCLAIMER AT THE VERY BOTTOM -->
+      <section class="py-8 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+          <div class="p-4 rounded-xl bg-white border border-amber-200 text-amber-950 text-xs leading-relaxed shadow-sm">
+            <div class="font-bold mb-1 flex items-center justify-center gap-1.5 text-amber-900">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              تنويه قانوني وإخلاء مسؤولية (Google Ads Compliance)
+            </div>
+            <p>
+              نحن مركز خدمة وصيانة حر ومستقل للأجهزة المنزلية، ولسنا وكلاء رسميين أو معتمدين أو ممثلين لأي علامة تجارية مسجلة. كافة الماركات المذكورة في هذه الصفحة هي ملك لأصحابها والشركات المصنعة فقط وتذكر لتوضيح نوعية الأجهزة التي نقوم بفحصها وإصلاحها.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <!-- END OF BRAND VIEW -->
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- GLOBAL BOTTOM LEGAL DISCLAIMER (AT BOTTOM OF WEBSITE)   -->
+  <!-- ======================================================== -->
+  <aside class="bg-amber-50/90 border-t-2 border-amber-200 text-amber-950 py-6 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex items-start gap-3">
+        <div class="text-amber-700 text-xl flex-shrink-0 mt-0.5">
+          <i class="fa-solid fa-scale-balanced"></i>
+        </div>
+        <div class="text-xs sm:text-sm leading-relaxed text-slate-800">
+          <strong class="text-amber-900 block mb-1 font-black text-sm">
+            إخلاء المسؤولية والتنويه القانوني العام:
+          </strong>
+          نحن مركز خدمة وصيانة حر ومستقل للأجهزة المنزلية، ولسنا وكلاء رسميين أو معتمدين أو تابعين لأي علامة تجارية من الماركات المعروضة في هذا الموقع. جميع الأسماء التجارية والعلامات المسجلة وشعارات الشركات (مثل كريازي، توشيبا، وايت بوينت، يونيفرسال، فريش، يونيون اير، زانوسي، وغيرها) هي ملكية حصرية لأصحابها والشركات المالكة لها قانوناً، وإنما تذكر في صفحات موقعنا لغرض التعريف بأنواع وموديلات الأجهزة الكهربائية التي يقدم فريقنا خدمات الفحص والإصلاح المنزلي لها وتوفير قطع الغيار البديلة المناسبة مع ضمان مركزنا المستقل.
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ======================================================== -->
+  <!-- MAIN SITE FOOTER                                         -->
+  <!-- ======================================================== -->
+  <footer class="bg-brand-950 text-white border-t border-brand-900 pt-12 pb-24 lg:pb-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        
+        <!-- Col 1: Brand & Side-by-side Name -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white text-lg font-bold">
+              <i class="fa-solid fa-wrench text-emerald-200"></i>
+            </div>
+            <!-- Side-by-side English brand name -->
+            <span class="brand-logo-text text-2xl font-black text-white tracking-tight whitespace-nowrap">
+              Gg 1 repair
+            </span>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            خدمات فحص وصيانة منزلية فورية للأجهزة الكهربائية بقطع غيار أصلية وضمان شامل. سرعة وأمان واحترافية.
+          </p>
+          <div class="text-xs text-emerald-300 font-bold">
+            <i class="fa-solid fa-shield-cat ml-1"></i> سياسة خصوصية 100% بدون كوكيز
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="text-sm font-bold text-white mb-4 border-b border-brand-800 pb-2">روابط سريعة</h4>
+          <ul class="space-y-2 text-xs text-slate-300">
+            <li><a href="#" onclick="showHomePage(event)" class="hover:text-emerald-400 transition">الرئيسية</a></li>
+            <li><a href="#brands-section" onclick="navigateToSection(event, 'brands-section')" class="hover:text-emerald-400 transition">قائمة الماركات</a></li>
+            <li><a href="#locations-section" onclick="navigateToSection(event, 'locations-section')" class="hover:text-emerald-400 transition">فروعنا وعناويننا</a></li>
+            <li><a href="#faq-section" onclick="navigateToSection(event, 'faq-section')" class="hover:text-emerald-400 transition">الأسئلة الشائعة (Q&A)</a></li>
+            <li><a href="#privacy-section" onclick="navigateToSection(event, 'privacy-section')" class="hover:text-emerald-400 transition">سياسة الخصوصية</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Branches / Locations -->
+        <div>
+          <h4 class="text-sm font-bold text-white mb-4 border-b border-brand-800 pb-2">فروع الخدمة</h4>
+          <ul class="space-y-2 text-xs text-slate-300">
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-location-dot text-emerald-400"></i> العاشر من رمضان
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-location-dot text-emerald-400"></i> المنطقة الصناعية في أكتوبر
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-location-dot text-emerald-400"></i> الكويت - الخيران
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-truck-fast text-emerald-400"></i> سيارات صيانة متنقلة لجميع المحافظات
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact Hotlines -->
+        <div>
+          <h4 class="text-sm font-bold text-white mb-4 border-b border-brand-800 pb-2">أرقام التواصل</h4>
+          <div class="space-y-2 text-xs text-slate-300">
+            <div class="flex items-center justify-between">
+              <span>الخط الساخن:</span>
+              <a href="tel:19081" class="font-brand font-black text-amber-300 text-sm">19081</a>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>موبايل الاتصال 1:</span>
+              <a href="tel:01104701709" dir="ltr" class="font-brand text-slate-200 hover:text-white">01104701709</a>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>موبايل الاتصال 2:</span>
+              <a href="tel:01104701708" dir="ltr" class="font-brand text-slate-200 hover:text-white">01104701708</a>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>واتساب 1:</span>
+              <a href="https://wa.me/201102670999" target="_blank" dir="ltr" class="font-brand text-emerald-400 font-bold">01102670999</a>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>واتساب 2:</span>
+              <a href="https://wa.me/201104701708" target="_blank" dir="ltr" class="font-brand text-emerald-400 font-bold">01104701708</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="pt-6 border-t border-brand-900/80 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div>
+          جميع الحقوق محفوظة &copy; <span id="currentYear">2026</span> <span class="font-brand font-bold text-white">Gg 1 repair</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="#privacy-section" onclick="navigateToSection(event, 'privacy-section')" class="hover:text-emerald-400 transition">الخصوصية (بدون كوكيز)</a>
+          <span>•</span>
+          <a href="#contact-section" onclick="navigateToSection(event, 'contact-section')" class="hover:text-emerald-400 transition">اتصل بنا</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================================================== -->
+  <!-- MOBILE FLOATING CONTACT ACTION BAR                       -->
+  <!-- ======================================================== -->
+  <div class="fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 p-2.5 lg:hidden shadow-[0_-4px_12px_rgba(0,0,0,0.1)]">
+    <div class="grid grid-cols-3 gap-2 text-center">
+      
+      <!-- Call Hotline 19081 (Enlarged) -->
+      <a href="tel:19081" class="flex flex-col items-center justify-center py-2 px-1 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-bold transition shadow-md active:scale-95">
+        <i class="fa-solid fa-phone-volume text-xl mb-1 text-amber-300 animate-pulse"></i>
+        <span class="text-xs leading-tight font-brand font-black">19081</span>
+        <span class="text-[10px] opacity-90 leading-tight">الخط الساخن</span>
+      </a>
+
+      <!-- WhatsApp 1 (Enlarged) -->
+      <a href="https://wa.me/201102670999" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center justify-center py-2 px-1 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold transition shadow-md active:scale-95">
+        <i class="fa-brands fa-whatsapp text-2xl mb-1 text-emerald-200"></i>
+        <span class="text-xs leading-tight">واتساب 1</span>
+        <span class="text-[10px] opacity-90 leading-tight">01102670999</span>
+      </a>
+
+      <!-- WhatsApp 2 (Enlarged) -->
+      <a href="https://wa.me/201104701708" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center justify-center py-2 px-1 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-bold transition shadow-md active:scale-95">
+        <i class="fa-brands fa-whatsapp text-2xl mb-1 text-emerald-200"></i>
+        <span class="text-xs leading-tight">واتساب 2</span>
+        <span class="text-[10px] opacity-90 leading-tight">01104701708</span>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- ======================================================== -->
+  <!-- JAVASCRIPT APPLICATION LOGIC                            -->
+  <!-- ======================================================== -->
+  <script>
+    // Set dynamic current year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Brand dataset (Safe, policy compliant, no deceptive claims)
+    const BRANDS_DATA = {
+      'kiriazi': {
+        arName: 'كريازي',
+        enName: 'Kiriazi',
+        title: 'خدمات صيانة وإصلاح أجهزة كريازي',
+        description: 'فحص فوري لأعطال ثلاجات وديب فريزر وغسالات كريازي. مهندسون مدربون وتوفير قطع الغيار المناسبة مع ضمان كتابي معتمد.',
+        appliances: ['ثلاجة', 'ديب فريزر', 'غسالة', 'بوتاجاز', 'سخان']
+      },
+      'toshiba': {
+        arName: 'توشيبا',
+        enName: 'Toshiba',
+        title: 'خدمات صيانة وإصلاح أجهزة توشيبا',
+        description: 'إصلاح منزلي لأعطال غسالات وثلاجات وشاشات توشيبا بمعدات فحص متطورة وأعلى معايير الأمان والجودة بالمنزل.',
+        appliances: ['غسالة ملابس', 'ثلاجة', 'ديب فريزر', 'شاشة']
+      },
+      'whitepoint': {
+        arName: 'وايت بوينت',
+        enName: 'White Point',
+        title: 'خدمات صيانة وإصلاح أجهزة وايت بوينت',
+        description: 'خدمة فحص وتشخيص أعطال غسالات وثلاجات وغسالات أطباق وايت بوينت بالمنزل مع تقديم ضمان على كافة أعمال الصيانة.',
+        appliances: ['غسالة ملابس', 'غسالة أطباق', 'ثلاجة', 'ديب فريزر']
+      },
+      'universal': {
+        arName: 'يونيفرسال',
+        enName: 'Universal',
+        title: 'خدمات صيانة وإصلاح أجهزة يونيفرسال',
+        description: 'معاينة منزلية شاملة لبوتاجازات وسخانات وغسالات يونيفرسال وإصلاح أي تسريب أو عطل فني في أسرع وقت.',
+        appliances: ['بوتاجاز', 'سخان غاز', 'سخان كهرباء', 'غسالة']
+      },
+      'fresh': {
+        arName: 'فريش',
+        enName: 'Fresh',
+        title: 'خدمات صيانة وإصلاح أجهزة فريش',
+        description: 'فحص وصيانة تكييفات، ديب فريزر، بوتاجازات، وغسالات فريش. شحن فريون وتركيب قطع الغيار البديلة الأصلية.',
+        appliances: ['تكييف', 'ديب فريزر', 'بوتاجاز', 'غسالة', 'سخان']
+      },
+      'unionaire': {
+        arName: 'يونيون اير',
+        enName: 'Unionaire',
+        title: 'خدمات صيانة وإصلاح أجهزة يونيون اير',
+        description: 'صيانة فورية بالمنزل لتكييفات وبوتاجازات وشاشات يونيون اير على أيدي فنيين متخصصين مع ضمان على الإصلاح.',
+        appliances: ['تكييف', 'بوتاجاز', 'شاشة', 'غسالة']
+      },
+      'zanussi': {
+        arName: 'زانوسي',
+        enName: 'Zanussi',
+        title: 'خدمات صيانة وإصلاح أجهزة زانوسي',
+        description: 'إصلاح جميع أعطال غسالات زانوسي الأوتوماتيكية، الثلاجات والسخانات بحرفية وسرعة استجابة فائقة في نفس اليوم.',
+        appliances: ['غسالة ملابس', 'غسالة أطباق', 'سخان', 'ثلاجة']
+      },
+      'other': {
+        arName: 'الماركات العالمية (LG, Samsung, Beko, Ariston)',
+        enName: 'Global Brands',
+        title: 'خدمات صيانة الأجهزة المنزلية للماركات العالمية',
+        description: 'نقدم فحصاً دقيقاً للأجهزة المنزلية من ماركات إل جي، سامسونج، بيكو، أريستون، شارب وغيرها بضمان الصيانة المنزلي.',
+        appliances: ['ثلاجة', 'غسالة', 'ديب فريزر', 'تكييف', 'بوتاجاز']
+      }
+    };
+
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    }
+
+    // Toggle FAQ Accordion
+    function toggleFaq(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('i');
+      const isHidden = content.classList.contains('hidden');
+
+      // Close all others
+      document.querySelectorAll('#faqAccordion > div > div').forEach(div => {
+        div.classList.add('hidden');
+      });
+      document.querySelectorAll('#faqAccordion button i').forEach(ic => {
+        ic.classList.remove('rotate-180');
+      });
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      }
+    }
+
+    // Show Home Page View
+    function showHomePage(e) {
+      if (e) e.preventDefault();
+      document.getElementById('brandView').classList.add('hidden');
+      document.getElementById('homeView').classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Update URL hash without breaking
+      history.pushState(null, '', window.location.pathname);
+    }
+
+    // Navigate to a section on home page
+    function navigateToSection(e, sectionId) {
+      if (e) e.preventDefault();
+      document.getElementById('brandView').classList.add('hidden');
+      document.getElementById('homeView').classList.remove('hidden');
+      const el = document.getElementById(sectionId);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Open Brand Specific Page with distinct URL / Hash
+    function openBrandPage(brandKey, e) {
+      if (e) e.preventDefault();
+      const brand = BRANDS_DATA[brandKey] || BRANDS_DATA['kiriazi'];
+
+      // Set URL hash for distinct linking
+      window.location.hash = `brand-${brandKey}`;
+
+      // Populate Brand View Elements
+      document.getElementById('brandBreadcrumb').textContent = brand.arName;
+      document.getElementById('brandPageTitle').textContent = brand.title;
+      document.getElementById('brandPageDescription').textContent = brand.description;
+      document.getElementById('brandFormTitle').textContent = `طلب صيانة ${brand.arName}`;
+      document.getElementById('brandFormBadge').textContent = `صيانة أجهزة ${brand.arName}`;
+      document.getElementById('brand_selected_brand').value = `${brand.arName} (${brand.enName})`;
+
+      // Switch views
+      document.getElementById('homeView').classList.add('hidden');
+      document.getElementById('brandView').classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Check Hash on Page Load or Hash Change
+    function handleHashRouting() {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith('#brand-')) {
+        const brandKey = hash.replace('#brand-', '');
+        if (BRANDS_DATA[brandKey]) {
+          openBrandPage(brandKey);
+          return;
+        }
+      }
+      // Default to home view
+      document.getElementById('brandView').classList.add('hidden');
+      document.getElementById('homeView').classList.remove('hidden');
+    }
+
+    window.addEventListener('hashchange', handleHashRouting);
+    window.addEventListener('DOMContentLoaded', handleHashRouting);
+
+    // Form Submission & Direct WhatsApp Redirect Handler
+    function handleFormSubmit(event, formType) {
+      event.preventDefault();
+
+      let name, phone, locationVal, appliance, brand, fault, whatsappNum;
+
+      if (formType === 'hero') {
+        name = document.getElementById('hero_name').value.trim();
+        phone = document.getElementById('hero_phone').value.trim();
+        locationVal = document.getElementById('hero_location').value;
+        appliance = document.getElementById('hero_appliance').value;
+        brand = document.getElementById('hero_brand').value;
+        whatsappNum = document.getElementById('hero_whatsapp_dest').value;
+        fault = document.getElementById('hero_fault').value.trim() || 'فحص منزلي عام للجهاز';
+      } else {
+        name = document.getElementById('brand_name').value.trim();
+        phone = document.getElementById('brand_phone').value.trim();
+        locationVal = document.getElementById('brand_location').value;
+        appliance = document.getElementById('brand_appliance').value;
+        brand = document.getElementById('brand_selected_brand').value;
+        whatsappNum = document.getElementById('brand_whatsapp_dest').value;
+        fault = document.getElementById('brand_fault').value.trim() || 'فحص منزلي عام للجهاز';
+      }
+
+      // Format clean Arabic WhatsApp message
+      const messageText = 
+`مرحباً Gg 1 repair، أرغب في حجز موعد صيانة منزلي:
+- الاسم: ${name}
+- رقم الهاتف: ${phone}
+- المدينة / الفرع: ${locationVal}
+- نوع الجهاز: ${appliance}
+- الماركة: ${brand}
+- وصف المشكلة: ${fault}
+(تم إرسال الطلب عبر الموقع الرسمي)`;
+
+      const encodedMessage = encodeURIComponent(messageText);
+      const whatsappUrl = `https://wa.me/${whatsappNum}?text=${encodedMessage}`;
+
+      // Open WhatsApp in new tab / application
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+</body>
+</html>
